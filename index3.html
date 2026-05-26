@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <style>
+        * {
+            font-size: 32px;
+            box-sizing: border-box;
+            padding: 3px;
+        }
+        input {
+            border-radius: 6px;
+        }
+        .form-cont{
+            padding: 35px;
+            margin: 50px auto;
+            border: 1px solid black;
+            width: 600px;
+        }
+        .form-cont__data {
+            display: flex;
+            flex-direction: row;
+        }
+        .form-cont__date, .form-cont__cvv{
+            position: relative;
+            width: 100%;
+        }
+        .form-cont__cardname, .form-cont__name {
+            width: 100%;
+        }
+        .form-cont__submit{
+            display: flex;
+            margin: 25px auto auto;
+            border-radius: 6px;
+            padding: 5px 10px;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-cont">
+        <form action="">
+            <div class="form-cont__cardname">
+                <div>Номер кредитной карты</div>
+                <input type="text" placeholder="0000 0000 0000 0000" class="form-cont__cardname">
+            </div>
+        <div class="form-cont__name">
+            <div>Имя владельца</div>
+            <input type="text" placeholder="IVAN IVANOV" class="form-cont__name">
+        </div>
+        <div class="form-cont__data">
+            <div class="form-cont__date">
+                <div>Срок действия</div>
+                <input type="text" placeholder="MM / YY" class="form-cont__date">
+            </div>
+            <div class="form-cont__cvv">
+                <div>CVV/CVN код</div>
+                <input type="text" placeholder="000" class="form-cont__cvv">
+            </div>
+        </div>
+        <input type="submit" class="form-cont__submit">
+        </form>
+    </div>
+</body>
+</html>
