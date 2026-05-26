@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        .place_made{
+            width: 600px;
+            background-color: #d3d3d3;
+            padding: 25px;
+            margin: 100px auto;
+        }
+        .form-text{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="place_made">
+        <h2>Inputs</h2>
+        <div class="inputs">
+            <form action="" class="form-text">
+                <input type="text" placeholder="Enter some text" class="form-text__input--main">
+                <input type="text" class="form-text__input--correct" placeholder="valid text">
+                <input type="text" class="fotm-text_input--incorrect" placeholder="invalid text">
+            </form>
+        </div>
+        <h2>Check boxes</h2>
+        <div class="check-boxes">
+            <form action="" class="form-checkbox">
+                <label><input type="checkbox" class="form-checkbox__input--valid">Subscribe</label>
+                <label><input type="checkbox" class="form-checkbox__input--invalid">Subscribe</label>
+            </form>
+        </div>
+        <h2>Radio buttons</h2>
+        <div class="radio-buttons">
+            <form action=""class="form-rb">
+                <span>Gender</span>
+                <label><input type="radio" class="form-rb__input--green">Male</label>
+                <label><input type="radio" class="form-rb__input--grey">Female</label>
+            </form>
+        </div>
+        <div class="buttons">
+            <h2>Buttons</h2>
+            <form action="" class="form-buttons">
+                <button class="form-buttons__active">Active</button>
+                <button class="form-buttons__active-hover">Hover</button>
+                <button class="form-buttons__danger">Danger</button>
+                <button class="form-buttons__dang-hover">Hover</button>
+                <button class="form-buttons__disabled">Disabled</button>
+                <button class="form-buttons__plus">+</button>
+                <button class="form-buttons__minus">-</button>
+            </form>
+        </div>
+        <div class="text-area">
+            <h2>Text area</h2>
+            <form action="" class="form-ta">
+                <textarea name="text area" id="1" placeholder="Enter some text"></textarea>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
